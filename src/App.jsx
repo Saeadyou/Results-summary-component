@@ -1,6 +1,5 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
         have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal
         61 / 100 Visual 72 / 100 Continue
       </p>
-      <div class="attribution">
+      <div className="attribution">
         Challenge by
         <a
           href="https://www.frontendmentor.io?ref=challenge"
