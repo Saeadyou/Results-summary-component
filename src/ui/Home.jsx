@@ -5,11 +5,11 @@ import { TbEye } from "react-icons/tb";
 
 function Home() {
   return (
-    <div className="grid w-[40rem] grid-cols-2 rounded-3xl shadow-2xl shadow-blue-500/20">
-      <div className="flex flex-col items-center gap-1 rounded-3xl bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue px-11 py-8 text-white">
+    <div className="grid h-screen grid-rows-[45%_55%] sm:h-fit sm:w-[40rem] sm:grid-cols-2 sm:grid-rows-1 sm:rounded-3xl sm:shadow-2xl sm:shadow-blue-500/20">
+      <div className="flex flex-col items-center justify-between gap-1 rounded-b-[2rem] bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue px-11 py-4 text-white sm:h-full sm:rounded-3xl sm:py-8">
         <h3 className="font-bold text-Light-lavender">Your Result</h3>
-        <div className="my-5 flex h-[9rem] w-[9rem] flex-col items-center justify-center rounded-full bg-gradient-to-b from-Violet-blue to-Persian-blue">
-          <span className="my-[-1rem] text-[3rem] font-bold">76</span>
+        <div className="flex flex-col items-center justify-center rounded-full bg-gradient-to-b from-Violet-blue to-Persian-blue p-10 p-7 sm:gap-1">
+          <span className="my-[-1rem] text-[3rem] font-bold sm:my-0">76</span>
           <span className="text-[0.75rem] text-Light-lavender">of 100</span>
         </div>
         <h2 className="text-[1.6rem]">Great</h2>
@@ -17,9 +17,9 @@ function Home() {
           You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
-      <div className="flex h-full flex-col justify-between px-11 py-8">
+      <div className="flex h-full flex-col justify-between px-5 py-8 sm:px-11">
         <h3 className="font-bold">Summary</h3>
-        <ul className="my-5 flex h-full flex-col justify-between font-bold">
+        <ul className="my-5 flex h-full flex-col justify-between font-bold sm:gap-2">
           <li className="bg-Light-red-transparent flex justify-between rounded-md px-3 py-2 text-[0.8rem]">
             <div className="flex items-center text-Light-red">
               <HiOutlineBolt />
@@ -57,7 +57,7 @@ function Home() {
             </div>
           </li>
         </ul>
-        <button className="mt-3 rounded-3xl bg-Dark-gray-blue p-3 text-[.75rem] text-Pale-blue hover:bg-Light-royal-blue">
+        <button className="mt-3 rounded-3xl bg-Dark-gray-blue p-3 text-[.75rem] text-white hover:bg-Light-royal-blue">
           Continue
         </button>
       </div>
