@@ -1,4 +1,4 @@
-import Home from "./ui/home";
+import Home from "./ui/Home";
 
 function App() {
   return <Home />;

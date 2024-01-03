@@ -8,7 +8,7 @@ function Home() {
     <div className="grid h-screen grid-rows-[45%_55%] sm:h-fit sm:w-[40rem] sm:grid-cols-2 sm:grid-rows-1 sm:rounded-3xl sm:shadow-2xl sm:shadow-blue-500/20">
       <div className="flex flex-col items-center justify-between gap-1 rounded-b-[2rem] bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue px-11 py-4 text-white sm:h-full sm:rounded-3xl sm:py-8">
         <h3 className="font-bold text-Light-lavender">Your Result</h3>
-        <div className="flex flex-col items-center justify-center rounded-full bg-gradient-to-b from-Violet-blue to-Persian-blue p-10 p-7 sm:gap-1">
+        <div className="flex flex-col items-center justify-center rounded-full bg-gradient-to-b from-Violet-blue to-Persian-blue p-7 sm:gap-1">
           <span className="my-[-1rem] text-[3rem] font-bold sm:my-0">76</span>
           <span className="text-[0.75rem] text-Light-lavender">of 100</span>
         </div>
