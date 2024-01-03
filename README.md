@@ -8,7 +8,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://results-summary-component-yousefi.vercel.app/)
+- Live Site URL: [results-summary-component-yousefi.vercel.app](https://results-summary-component-yousefi.vercel.app/)
 
 ## My process
 
